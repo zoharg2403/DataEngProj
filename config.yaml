@@ -1,0 +1,40 @@
+
+# Logging configuration:
+logger:
+  file_name: "log.txt"
+
+# API Clients configuration:
+clients:
+  
+  BaseClient:
+    retries:          3                                                    # max num of retry attempts
+    backoff_factor:   0.5                                                  # delay between retries using exponential backoff (delay = backoff_factor * (2 ** #retry))
+    status_forcelist: [429, 500, 502, 503, 504]                            # HTTP status codes that should trigger a retry
+    allowed_methods:  ["GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS"]  # HTTP methods that are allowed to be retried
+    raise_on_status:  False                                                # raise an exception when a retryable status code is encountered
+    base_output_dir: "outputs"
+
+  TMDB:
+    override:        True  # Override existing client data (this setting will override individual endpoints override)
+    total_pages:     50     # Max pages to fetch (use 0 for no limit)
+    pages_per_batch: 10      # Num of concurrent pages processed in one file
+    
+    endpoints:              # params for each endpoint, must contain 'is_enabled' (if 'is_enabled' is missing, it'll be set to False)
+      Trending:
+        is_enabled:  True
+        override:    False
+        media_type:  "all"   # all | movie | tv
+        time_window: "week"  # day | week
+      NowPlaying: 
+        is_enabled: True
+        override:   False
+      Upcoming:   
+        is_enabled: True
+        override:   False
+      Airing:     
+        is_enabled: True
+        override:   False
+
+
+
+  

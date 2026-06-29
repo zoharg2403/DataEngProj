@@ -1,0 +1,602 @@
+2026-06-25 15:51:07,956 [  ERROR   ]: APIIngestionTMDB init failed with AttributeError: 'ConfigNode' object has no attribute 'nana', make sure to set it in the 'config.yaml' file
+2026-06-28 14:44:24,249 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-28 14:44:24,743 [   INFO   ]: SUCCESS: 200
+2026-06-28 17:57:33,194 [   INFO   ]: Run TMDB api ingestion
+2026-06-28 17:57:33,196 [   INFO   ]: Fetch trending data with: media_type=all, time_window=week
+2026-06-28 17:57:33,197 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-28 17:57:33,649 [   INFO   ]: SUCCESS: 200
+2026-06-28 17:58:42,405 [   INFO   ]: Run TMDB api ingestion
+2026-06-28 17:58:42,406 [   INFO   ]: Fetch trending data with: media_type=all, time_window=week
+2026-06-28 17:58:42,407 [   INFO   ]: Fetch now playing (in theaters) movies
+2026-06-28 17:58:42,408 [   INFO   ]: GET https://api.themoviedb.org/3/movie/now_playing
+2026-06-28 17:58:42,862 [   INFO   ]: SUCCESS: 200
+2026-06-28 23:26:13,672 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-28 23:26:47,730 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-28 23:26:57,236 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-28 23:32:46,408 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-28 23:32:46,410 [   INFO   ]: Loaded endpoint: Trending
+2026-06-28 23:32:46,415 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-28 23:32:46,418 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-28 23:32:46,421 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:13:25,664 [   INFO   ]: Importing enabled endpoints handlers from path: 'TMDB.Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:13:42,312 [   INFO   ]: Importing enabled endpoints handlers from path: 'TMDB.Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:13:42,314 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: No module named 'TMDB'
+2026-06-29 00:13:42,314 [ WARNING  ]: Failed to load endpoint 'NowPlaying', Skipping. error: No module named 'TMDB'
+2026-06-29 00:13:42,315 [ WARNING  ]: Failed to load endpoint 'Upcoming', Skipping. error: No module named 'TMDB'
+2026-06-29 00:13:42,315 [ WARNING  ]: Failed to load endpoint 'Airing', Skipping. error: No module named 'TMDB'
+2026-06-29 00:13:42,315 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 00:14:04,381 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:14:04,384 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 00:14:04,386 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 00:14:04,388 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 00:14:04,390 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:14:04,390 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 00:14:54,255 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:14:54,258 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 00:14:54,259 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 00:14:54,259 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 00:14:54,260 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:14:54,260 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 00:15:41,862 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:15:41,864 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 00:15:41,865 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 00:15:41,866 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 00:15:41,867 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:15:41,867 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 00:17:00,548 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:17:00,550 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 00:17:00,551 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 00:17:00,552 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 00:17:00,552 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:17:00,553 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 00:17:02,737 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 00:17:03,215 [   INFO   ]: SUCCESS: 200
+2026-06-29 00:26:14,701 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:26:14,703 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 00:26:14,704 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 00:26:14,705 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 00:26:14,706 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:26:14,706 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 00:26:14,706 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 00:26:15,159 [   INFO   ]: SUCCESS: 200
+2026-06-29 00:36:11,326 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:36:11,333 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 00:36:11,334 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 00:36:11,334 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 00:36:11,335 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:36:11,336 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 00:36:11,336 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 00:36:11,779 [   INFO   ]: SUCCESS: 200
+2026-06-29 00:36:30,168 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 00:36:30,183 [   INFO   ]: SUCCESS: 200
+2026-06-29 00:36:37,780 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 00:36:37,799 [   INFO   ]: SUCCESS: 200
+2026-06-29 00:36:40,435 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 00:36:40,445 [   INFO   ]: SUCCESS: 200
+2026-06-29 00:36:51,024 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 00:36:51,027 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 00:36:51,028 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 00:36:51,028 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 00:36:51,029 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 00:36:51,029 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 00:36:51,030 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 01:19:15,018 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 01:19:15,028 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 01:19:15,031 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 01:19:15,034 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 01:19:15,037 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 01:19:15,038 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 01:19:15,038 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 01:19:15,038 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:19:29,290 [   INFO   ]: SUCCESS 50 pages: 200
+2026-06-29 01:19:37,798 [   INFO   ]: SUCCESS 100 pages: 200
+2026-06-29 01:19:46,418 [   INFO   ]: SUCCESS 150 pages: 200
+2026-06-29 01:20:12,699 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 01:20:12,704 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 01:20:12,707 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 01:20:12,710 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 01:20:12,713 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 01:20:12,714 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 01:20:12,714 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 01:20:12,714 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:20:13,679 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:20:13,680 [ WARNING  ]: Failed fetching data from 'Trending' endpoint. Skipping...
+2026-06-29 01:20:13,680 [   INFO   ]: GET https://api.themoviedb.org/3/movie/now_playing
+2026-06-29 01:20:13,680 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:20:15,289 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:20:15,290 [ WARNING  ]: Failed fetching data from 'NowPlaying' endpoint. Skipping...
+2026-06-29 01:20:15,290 [   INFO   ]: GET https://api.themoviedb.org/3/movie/upcoming
+2026-06-29 01:20:15,290 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:20:17,121 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:20:17,121 [ WARNING  ]: Failed fetching data from 'Upcoming' endpoint. Skipping...
+2026-06-29 01:20:17,122 [   INFO   ]: GET https://api.themoviedb.org/3/tv/on_the_air
+2026-06-29 01:20:17,122 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:20:18,953 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:20:18,954 [ WARNING  ]: Failed fetching data from 'Airing' endpoint. Skipping...
+2026-06-29 01:21:13,853 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 01:21:13,858 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 01:21:13,860 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 01:21:13,863 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 01:21:13,867 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 01:21:13,867 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 01:21:13,868 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 01:21:13,868 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:21:14,234 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:21:14,235 [ WARNING  ]: Failed fetching data from 'Trending' endpoint. Skipping...
+2026-06-29 01:21:14,235 [   INFO   ]: GET https://api.themoviedb.org/3/movie/now_playing
+2026-06-29 01:21:14,235 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:21:15,013 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:21:15,014 [ WARNING  ]: Failed fetching data from 'NowPlaying' endpoint. Skipping...
+2026-06-29 01:21:15,015 [   INFO   ]: GET https://api.themoviedb.org/3/movie/upcoming
+2026-06-29 01:21:15,016 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:21:15,693 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:21:15,693 [ WARNING  ]: Failed fetching data from 'Upcoming' endpoint. Skipping...
+2026-06-29 01:21:15,693 [   INFO   ]: GET https://api.themoviedb.org/3/tv/on_the_air
+2026-06-29 01:21:15,693 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:21:16,443 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:21:16,443 [ WARNING  ]: Failed fetching data from 'Airing' endpoint. Skipping...
+2026-06-29 01:22:02,045 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 01:22:02,050 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 01:22:02,053 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 01:22:02,056 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 01:22:02,059 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 01:22:02,059 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 01:22:02,060 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 01:22:02,060 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:24:50,018 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:25:37,169 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 01:25:37,175 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 01:25:37,178 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 01:25:37,181 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 01:25:37,184 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 01:25:37,184 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 01:25:37,184 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 01:25:37,185 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 01:25:37,185 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:25:42,992 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:26:25,170 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints', with endpoints_toggle='{'Trending': True, 'NowPlaying': True, 'Upcoming': True, 'Airing': True}'
+2026-06-29 01:26:25,177 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 01:26:25,180 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 01:26:25,183 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 01:26:25,186 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 01:26:25,186 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 01:26:25,187 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 01:26:25,187 [   INFO   ]: GET https://api.themoviedb.org/3/trending/all/week
+2026-06-29 01:26:25,187 [   INFO   ]: Start paginated data fetching
+2026-06-29 01:26:26,236 [   INFO   ]: Reached defined page limit: 10 / 10
+2026-06-29 01:26:33,336 [   INFO   ]: Start 'Trending' data wrangling
+2026-06-29 14:58:44,131 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 14:58:45,599 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: cannot import name 'now' from 'datetime' (C:\Users\AvivShalit\AppData\Local\Programs\Python\Python313\Lib\datetime.py)
+2026-06-29 14:58:45,599 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 14:59:30,138 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:05:11,136 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:05:11,501 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: 'ConfigNode' object has no attribute 'Trending'
+2026-06-29 15:05:11,501 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:05:45,106 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:07:37,560 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:07:37,902 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: 'ConfigNode' object has no attribute 'Trending'
+2026-06-29 15:07:37,902 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:08:08,564 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:08:25,533 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: 'ConfigNode' object has no attribute 'Trending'
+2026-06-29 15:08:25,534 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:08:48,466 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:14:50,658 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:15:06,739 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:15:15,191 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:15:15,543 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: 'dict' object has no attribute 'Trending'
+2026-06-29 15:15:15,543 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:15:53,201 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:17:14,884 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:19:22,945 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:19:23,295 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: unsupported operand type(s) for /: 'WindowsPath' and 'int'
+2026-06-29 15:19:23,295 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:19:32,282 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:20:40,212 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: unsupported operand type(s) for /: 'WindowsPath' and 'int'
+2026-06-29 15:20:40,213 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:21:15,032 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:21:41,683 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: unsupported operand type(s) for /: 'WindowsPath' and 'int'
+2026-06-29 15:21:41,683 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:21:47,561 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:22:58,092 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:22:58,432 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: 'ConfigTrending' object has no attribute 'override'
+2026-06-29 15:22:58,432 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:23:32,051 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:23:39,096 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: 'ConfigTrending' object has no attribute 'override'
+2026-06-29 15:23:39,097 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:23:46,607 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:26:08,611 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:26:08,962 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:26:08,963 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:26:08,963 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:27:54,776 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:28:00,293 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:28:00,294 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:28:00,295 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:28:50,294 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:28:50,645 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:28:50,645 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:28:50,646 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:30:26,401 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:30:26,749 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:30:26,749 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:30:26,749 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:30:27,411 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:30:58,108 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:30:58,811 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:30:58,811 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:30:58,812 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:31:40,317 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:32:13,765 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:32:14,165 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:32:14,165 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:32:14,165 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:32:14,519 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:32:14,530 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:32:15,359 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:32:15,365 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:32:16,187 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:32:16,195 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:32:17,140 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:32:17,158 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:32:17,159 [   INFO   ]: Reached defined page limit: 20 / 20
+2026-06-29 15:32:17,160 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:36:05,071 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:36:05,427 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:36:05,427 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:36:05,427 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:36:06,069 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:36:06,078 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:36:06,419 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:36:06,426 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:36:06,883 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:36:06,903 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:36:07,255 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:36:07,264 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:36:07,264 [   INFO   ]: Reached defined page limit: 20 / 20
+2026-06-29 15:36:07,265 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 15:38:48,218 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:38:48,568 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:38:48,568 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:38:48,568 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:38:48,887 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:38:48,914 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:38:49,120 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:38:49,124 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:38:49,326 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:38:49,335 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:38:49,397 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 15:38:49,404 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 15:38:49,405 [   INFO   ]: Reached defined page limit: 20 / 20
+2026-06-29 15:38:49,405 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 15:45:27,992 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:45:28,724 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: [WinError 32] The process cannot access the file because it is being used by another process: 'outputs\\TMDB\\Trending\\2026\\6\\29\\batch_153848_887239.csv'
+2026-06-29 15:45:28,725 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 15:46:12,634 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:46:13,335 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 15:46:13,335 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:46:13,336 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 15:59:19,206 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 15:59:19,934 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 15:59:19,934 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 15:59:19,934 [   INFO   ]: Start ingestion from 'Airing' endpoint
+2026-06-29 16:07:09,403 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:07:10,127 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 16:07:10,128 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 16:07:10,128 [   INFO   ]: Start ingestion from 'NowPlaying' endpoint
+2026-06-29 16:12:26,235 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:12:26,610 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 16:12:26,615 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 16:12:26,620 [ WARNING  ]: Failed to load endpoint 'Upcoming', Skipping. error: Can't instantiate abstract class Upcoming without an implementation for abstract methods 'output_schema', 'run'
+2026-06-29 16:12:26,624 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 16:12:26,624 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 16:12:26,624 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 16:12:28,651 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:12:51,733 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:12:52,081 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 16:12:52,083 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 16:12:52,084 [ WARNING  ]: Failed to load endpoint 'Upcoming', Skipping. error: Can't instantiate abstract class Upcoming without an implementation for abstract methods 'output_schema', 'run'
+2026-06-29 16:12:52,125 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 16:12:52,125 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 16:12:52,125 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 16:12:52,621 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:15:01,287 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:15:02,028 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 16:15:02,033 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 16:15:02,037 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 16:15:02,042 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 16:15:02,042 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 16:15:02,042 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 16:15:10,996 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:15:14,225 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:15:16,084 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:16:53,143 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:16:53,866 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: module 'pandas' has no attribute 'Int64'
+2026-06-29 16:16:53,871 [ WARNING  ]: Failed to load endpoint 'NowPlaying', Skipping. error: module 'pandas' has no attribute 'Int64'
+2026-06-29 16:16:53,874 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 16:16:53,877 [ WARNING  ]: Failed to load endpoint 'Airing', Skipping. error: module 'pandas' has no attribute 'Int64'
+2026-06-29 16:16:53,878 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 16:16:53,878 [   INFO   ]: Start ingestion from 'Upcoming' endpoint
+2026-06-29 16:20:36,500 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:20:36,896 [ WARNING  ]: Failed to load endpoint 'Trending', Skipping. error: module 'pandas' has no attribute 'Int64'
+2026-06-29 16:20:36,897 [ WARNING  ]: Failed to load endpoint 'NowPlaying', Skipping. error: module 'pandas' has no attribute 'Int64'
+2026-06-29 16:20:36,900 [ WARNING  ]: Failed to load endpoint 'Upcoming', Skipping. error: module 'pandas' has no attribute 'Int64'
+2026-06-29 16:20:36,901 [ WARNING  ]: Failed to load endpoint 'Airing', Skipping. error: module 'pandas' has no attribute 'Int64'
+2026-06-29 16:20:36,901 [  ERROR   ]: Failed to load ALL active endpoint module
+2026-06-29 16:26:29,436 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:26:29,815 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 16:26:29,821 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 16:26:29,831 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 16:26:29,837 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 16:26:29,838 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 16:26:29,838 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 16:26:31,641 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:26:31,670 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:26:33,449 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:26:33,481 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:26:35,250 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:26:35,281 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:26:37,077 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:26:37,090 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:26:38,769 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 16:26:38,769 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:26:38,783 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:26:38,783 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 16:26:38,783 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 16:26:38,783 [   INFO   ]: Start ingestion from 'NowPlaying' endpoint
+2026-06-29 16:27:55,388 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 16:27:55,743 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 16:27:55,749 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 16:27:55,754 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 16:27:55,759 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 16:27:55,759 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 16:27:55,760 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 16:27:56,179 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:27:56,199 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:27:56,456 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:27:56,466 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:27:57,173 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:27:57,204 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:27:58,006 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:27:58,045 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:27:59,123 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 16:27:59,123 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 16:27:59,134 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:27:59,134 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 16:27:59,134 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 16:27:59,135 [   INFO   ]: Start ingestion from 'NowPlaying' endpoint
+2026-06-29 16:28:00,808 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 16:28:00,814 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:02,655 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 16:28:02,662 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:04,274 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 16:28:04,282 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:06,145 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 16:28:06,152 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:08,088 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 16:28:08,089 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 16:28:08,099 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:08,099 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 16:28:08,100 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 16:28:08,100 [   INFO   ]: Start ingestion from 'Upcoming' endpoint
+2026-06-29 16:28:09,599 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 16:28:09,608 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:11,242 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 16:28:11,252 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:12,895 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 16:28:12,911 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:14,562 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 16:28:14,573 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:14,899 [   INFO   ]: Reached last page / API page limit: 42 / 42
+2026-06-29 16:28:14,899 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 16:28:14,903 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:14,904 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 16:28:14,904 [   INFO   ]: Start ingestion from 'Airing' endpoint
+2026-06-29 16:28:16,240 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 16:28:16,249 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:18,049 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 16:28:18,061 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:19,927 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 16:28:19,937 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:21,710 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 16:28:21,728 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:22,879 [   INFO   ]: Reached last page / API page limit: 47 / 46
+2026-06-29 16:28:22,879 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 16:28:22,892 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 16:28:22,893 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:04:26,434 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 17:04:26,882 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 17:04:26,886 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 17:04:26,891 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 17:04:26,896 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 17:04:26,897 [   INFO   ]: Run TMDB api ingestion
+2026-06-29 17:04:26,897 [   INFO   ]: Start ingestion from 'Trending' endpoint
+2026-06-29 17:04:28,872 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:04:28,917 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:30,549 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:04:30,563 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:32,563 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:04:32,586 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:34,452 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:04:34,462 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:36,319 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 17:04:36,319 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:04:36,331 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:36,332 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 17:04:36,332 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:04:36,332 [   INFO   ]: Start ingestion from 'NowPlaying' endpoint
+2026-06-29 17:04:36,645 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:04:36,651 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:37,743 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:04:37,760 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:38,756 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:04:38,763 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:39,555 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:04:39,561 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:40,339 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 17:04:40,339 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:04:40,349 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:40,350 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 17:04:40,350 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:04:40,350 [   INFO   ]: Start ingestion from 'Upcoming' endpoint
+2026-06-29 17:04:40,735 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:04:40,744 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:41,529 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:04:41,535 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:42,324 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:04:42,333 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:43,453 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:04:43,462 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:43,595 [   INFO   ]: Reached last page / API page limit: 42 / 42
+2026-06-29 17:04:43,595 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:04:43,601 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:43,602 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:04:43,602 [   INFO   ]: Start ingestion from 'Airing' endpoint
+2026-06-29 17:04:44,285 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:04:44,295 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:45,331 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:04:45,341 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:46,096 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:04:46,112 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:46,955 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:04:46,977 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:47,556 [   INFO   ]: Reached last page / API page limit: 47 / 46
+2026-06-29 17:04:47,556 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:04:47,566 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:04:47,566 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:10:34,951 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 17:10:35,331 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 17:10:35,335 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 17:10:35,338 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 17:10:35,340 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 17:15:41,570 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 17:15:41,930 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 17:15:41,932 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 17:15:41,934 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 17:15:41,936 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 17:15:41,936 [   INFO   ]: ================================================================================
+2026-06-29 17:15:41,936 [   INFO   ]: =                            Start API Client: 'TMDB'                            =
+2026-06-29 17:15:41,936 [   INFO   ]: ================================================================================
+2026-06-29 17:15:41,936 [   INFO   ]: -------------------------  Start endpoint: 'Trending'  -------------------------
+2026-06-29 17:15:43,771 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:15:43,782 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:45,511 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:15:45,528 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:47,339 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:15:47,372 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:49,124 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:15:49,139 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:50,887 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 17:15:50,887 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:15:50,902 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:50,903 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 17:15:50,903 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:15:50,903 [   INFO   ]: --------------------------  End endpoint: 'Trending'  --------------------------
+2026-06-29 17:15:50,904 [   INFO   ]: ------------------------  Start endpoint: 'NowPlaying'  ------------------------
+2026-06-29 17:15:51,015 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:15:51,024 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:51,405 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:15:51,414 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:51,620 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:15:51,629 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:51,714 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:15:51,722 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:51,802 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 17:15:51,802 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:15:51,808 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:51,808 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 17:15:51,809 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:15:51,809 [   INFO   ]: -------------------------  End endpoint: 'NowPlaying'  -------------------------
+2026-06-29 17:15:51,809 [   INFO   ]: -------------------------  Start endpoint: 'Upcoming'  -------------------------
+2026-06-29 17:15:52,040 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:15:52,049 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:52,196 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:15:52,203 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:52,291 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:15:52,301 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:52,393 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:15:52,399 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:52,421 [   INFO   ]: Reached last page / API page limit: 42 / 42
+2026-06-29 17:15:52,421 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:15:52,425 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:52,425 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:15:52,425 [   INFO   ]: --------------------------  End endpoint: 'Upcoming'  --------------------------
+2026-06-29 17:15:52,425 [   INFO   ]: --------------------------  Start endpoint: 'Airing'  --------------------------
+2026-06-29 17:15:52,576 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:15:52,586 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:53,008 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:15:53,022 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:53,430 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:15:53,442 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:53,838 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:15:53,847 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:54,226 [   INFO   ]: Reached last page / API page limit: 47 / 46
+2026-06-29 17:15:54,226 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:15:54,231 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:15:54,231 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:15:54,232 [   INFO   ]: ---------------------------  End endpoint: 'Airing'  ---------------------------
+2026-06-29 17:16:16,717 [   INFO   ]: Importing enabled endpoints handlers from path: 'Endpoints'
+2026-06-29 17:16:17,069 [   INFO   ]: Loaded endpoint: Trending
+2026-06-29 17:16:17,071 [   INFO   ]: Loaded endpoint: NowPlaying
+2026-06-29 17:16:17,073 [   INFO   ]: Loaded endpoint: Upcoming
+2026-06-29 17:16:17,075 [   INFO   ]: Loaded endpoint: Airing
+2026-06-29 17:16:17,075 [   INFO   ]: ================================================================================
+2026-06-29 17:16:17,075 [   INFO   ]:                             Start API Client: 'TMDB'                            
+2026-06-29 17:16:17,075 [   INFO   ]: ================================================================================
+2026-06-29 17:16:17,075 [   INFO   ]: -------------------------  Start endpoint: 'Trending'  -------------------------
+2026-06-29 17:16:17,441 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:16:17,451 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:17,566 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:16:17,577 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:17,695 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:16:17,708 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:18,164 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:16:18,176 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:18,278 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 17:16:18,278 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Trending\2026\6\29'
+2026-06-29 17:16:18,288 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:18,289 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 17:16:18,289 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:16:18,289 [   INFO   ]: --------------------------  End endpoint: 'Trending'  --------------------------
+2026-06-29 17:16:18,289 [   INFO   ]: ------------------------  Start endpoint: 'NowPlaying'  ------------------------
+2026-06-29 17:16:18,388 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:16:18,394 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:18,681 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:16:18,691 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:18,784 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:16:18,793 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:18,901 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:16:18,911 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,009 [   INFO   ]: SUCCESS 50 pages
+2026-06-29 17:16:19,010 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\NowPlaying\2026\6\29'
+2026-06-29 17:16:19,016 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,016 [   INFO   ]: Reached defined page limit: 50 / 50
+2026-06-29 17:16:19,016 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:16:19,016 [   INFO   ]: -------------------------  End endpoint: 'NowPlaying'  -------------------------
+2026-06-29 17:16:19,016 [   INFO   ]: -------------------------  Start endpoint: 'Upcoming'  -------------------------
+2026-06-29 17:16:19,108 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:16:19,114 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,202 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:16:19,209 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,306 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:16:19,312 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,407 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:16:19,413 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,439 [   INFO   ]: Reached last page / API page limit: 42 / 42
+2026-06-29 17:16:19,439 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Upcoming\2026\6\29'
+2026-06-29 17:16:19,443 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,443 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:16:19,444 [   INFO   ]: --------------------------  End endpoint: 'Upcoming'  --------------------------
+2026-06-29 17:16:19,444 [   INFO   ]: --------------------------  Start endpoint: 'Airing'  --------------------------
+2026-06-29 17:16:19,535 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:16:19,542 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,698 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:16:19,707 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:19,866 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:16:19,877 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:20,085 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:16:20,095 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:20,179 [   INFO   ]: Reached last page / API page limit: 47 / 46
+2026-06-29 17:16:20,180 [   INFO   ]: Saving data: output_format=['csv'], output_dir='outputs\TMDB\Airing\2026\6\29'
+2026-06-29 17:16:20,185 [   INFO   ]: All file format(s) saved succesfully!
+2026-06-29 17:16:20,185 [   INFO   ]: Processing ALL pages compleated successfully!
+2026-06-29 17:16:20,185 [   INFO   ]: ---------------------------  End endpoint: 'Airing'  ---------------------------
