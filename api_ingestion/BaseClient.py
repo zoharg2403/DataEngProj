@@ -80,7 +80,7 @@ class BaseClient(ABC):
     
     def _get_output_dir(self):
         folder = Path(self.cfg_base_client.base_output_dir) / self.__class__.__name__
-        if self.cfg_client.override: 
+        if self.cfg_client.override and folder.exists(): 
             shutil.rmtree(folder)
         folder.mkdir(parents=True, exist_ok=True)
         return folder

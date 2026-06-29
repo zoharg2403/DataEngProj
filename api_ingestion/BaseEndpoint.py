@@ -49,7 +49,7 @@ class BaseEndpoint(ABC):
     def _get_output_dir(self):
         today = dt.now()
         folder = Path(self.client.output_dir) / self.__class__.__name__ / str(today.year) / str(today.month) / str(today.day)
-        if self.cfg_endpoint.override:
+        if self.cfg_endpoint.override and folder.exists():
             shutil.rmtree(folder)
         folder.mkdir(parents=True, exist_ok=True)
         return folder

@@ -16,8 +16,8 @@ clients:
 
   TMDB:
     override:        True  # Override existing client data (this setting will override individual endpoints override)
-    total_pages:     50     # Max pages to fetch (use 0 for no limit)
-    pages_per_batch: 10      # Num of concurrent pages processed in one file
+    total_pages:     50    # Max pages to fetch (use 0 for no limit)
+    pages_per_batch: 10    # Num of concurrent pages processed in one file
     
     endpoints:              # params for each endpoint, must contain 'is_enabled' (if 'is_enabled' is missing, it'll be set to False)
       Trending:
