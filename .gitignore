@@ -2,4 +2,4 @@
 outputs/
 
 # Ignore files
-log.txt
+log_*.txt

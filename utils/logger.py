@@ -1,4 +1,7 @@
 import logging
+from pathlib import Path
+from datetime import datetime as dt
+
 from utils.config import Config, ConfigNode
 
 class CustomFormatter(logging.Formatter):
@@ -17,6 +20,12 @@ class AppLogger:
         self._is_initialized    = False
         self.config: ConfigNode = config if config else Config().logger
         self.logger             = None
+        self._filepath          = self._get_filepath()
+
+    def _get_filepath(self):
+        dir_ = Path(self.config.path)
+        dir_.mkdir(parents=True, exist_ok=True)
+        return dir_ / (self.config.filename_base + f"_{dt.now().strftime("%Y%m%d_%H%M%S")}.txt")
 
     def _initialize_logger(self) -> logging.Logger:       
         # Create logger
@@ -26,7 +35,7 @@ class AppLogger:
         # Clear existing handlers to avoid duplicates
         logger.handlers.clear()
 
-        handlers = [logging.StreamHandler(), logging.FileHandler(self.config.file_name)]
+        handlers = [logging.StreamHandler(), logging.FileHandler(self._filepath)]
         for handler in handlers:
             handler.setLevel(logging.INFO)
             handler.setFormatter(self._formatter)
